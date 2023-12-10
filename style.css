@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  font-family: "Afacad", sans-serif;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+}
+
+/* ====================NAVBAR======================== */
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  padding-right: 30px;
+}
+
+nav h4 {
+  font-size: 25px;
+}
+
+nav i {
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* ================CENTER======================== */
+
+#center {
+  padding: 40px 50px;
+}
+
+#center h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#inner-center {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#inner-center p {
+  font-size: 30px;
+}
+
+#right-section {
+  width: 20%;
+}
+
+#right-section a,
+i {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+#right-section i {
+  opacity: 0;
+}
+
+#right-section .element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-top: 3px solid black;
+}
+
+#right-section .element:hover i {
+  opacity: 1;
+}
+
+#right-section .element:hover {
+  background-color: lightgrey;
+}
+
+/* ==================BOTTOM======================== */
+
+#bottom {
+  height: 40%;
+  background-color: coral;
+  background-image: url("https://media.istockphoto.com/id/618976674/photo/fashion-woman-shopping.jpg?s=1024x1024&w=is&k=20&c=OVwkrGYD2ylReVjw_bs2rBQWt4QnP7cNbffJWoUCWWI=");
+  background-size: cover;
+  background-position: 0 8%;
+}
